@@ -34,6 +34,21 @@
     button:hover {
       background-color: #ff9900;
     }
+
+    .rotating-image {
+      width: 162px; /* Puoi personalizzare la dimensione */
+      height: auto;
+      animation: rotate 4s linear infinite; /* Aggiungi l'animazione di rotazione infinita */
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg); /* Inizia da 0 gradi */
+      }
+      to {
+        transform: rotate(360deg); /* Completa una rotazione di 360 gradi */
+      }
+    }
   </style>
 
 
